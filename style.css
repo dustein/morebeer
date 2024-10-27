@@ -17,7 +17,8 @@ header {
 }
 
 main {
-  background-color: #ffda3d;
+  /* background-color: #ffda3d; */
+  background-image: linear-gradient(#ffda3d, #fff75e, #ededed 50%);
   height: 100%;
 }
 
@@ -57,6 +58,18 @@ footer {
   background-color: aliceblue;
   min-width: 25vw;
   min-height: 25vw;
+}
+
+.comands {
+  padding-top: 2em;
+}
+
+.comands button {
+  padding: 0.6rem;
+  border-radius: 15%;
+  background-color: #ffcb05;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
 }
 
 .second {
