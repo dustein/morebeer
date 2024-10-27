@@ -55,9 +55,10 @@ footer {
 }
 
 .size-icons {
-  background-color: aliceblue;
-  min-width: 25vw;
-  min-height: 25vw;
+  /* background-color: aliceblue; */
+  min-width: 30vw;
+  min-height: 30vw;
+  border: solid;
 }
 
 .comands {
