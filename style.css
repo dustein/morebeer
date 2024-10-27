@@ -58,7 +58,14 @@ footer {
   /* background-color: aliceblue; */
   min-width: 30vw;
   min-height: 30vw;
-  border: solid;
+  border: solid 0.1px;
+  border-color: #ff99005a;
+  border-radius: 5%;
+}
+
+.size-icons:hover {
+  border: solid 1px;
+  border-color: #e8e5e0;
 }
 
 .comands {
