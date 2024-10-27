@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: azure;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(white 30%, #fff75e, #ffda3d 60%);
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+
+main {
+  background-color: #ffda3d;
+  height: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.first {
+  height: 100vh;
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-size: 0.4rem;
+}
+
+.title-app {
+  font-family: "Anton", serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.size-icons {
+  background-color: aliceblue;
+  min-width: 25vw;
+  min-height: 25vw;
+}
+
+.second {
+  background-color: blue;
+}
