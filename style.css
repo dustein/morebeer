@@ -17,7 +17,6 @@ header {
 }
 
 main {
-  /* background-color: #ffda3d; */
   background-image: linear-gradient(#ffda3d, #fff75e, #ededed 50%);
   height: 100%;
 }
@@ -54,19 +53,43 @@ footer {
   gap: 1em;
 }
 
+.icon-imgtext {
+  position: relative;
+}
+
 .size-icons {
   /* background-color: aliceblue; */
-  min-width: 30vw;
-  min-height: 30vw;
+  width: 35vw;
+  height: 35vw;
   border: solid 0.1px;
   border-color: #ff99005a;
   border-radius: 5%;
+  /* background-image: url(midia/bottle_600.png); */
+  background-size: contain;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .size-icons:hover {
   border: solid 1px;
   border-color: #e8e5e0;
 }
+
+.icon-text {
+  font-size: 2rem;
+  font-weight: 800;
+  /* align-self: flex-start; */
+  padding-top: 0.2em;
+  position: absolute;
+  top: 45px;
+  left: 25px
+}
+/* .size-icons:active {
+  border: solid 4px;
+  border-color: #e8e5e0;
+} */
 
 .comands {
   padding-top: 2em;
@@ -82,4 +105,29 @@ footer {
 
 .second {
   background-color: blue;
+}
+
+/* Imagens dos Icones */
+#icon-id-1 {
+  background-image: url(midia/bottle_600.png);
+}
+
+#icon-id-2 {
+  background-image: url(midia/can_473.png);
+}
+
+#icon-id-3 {
+  background-image: url(midia/bottle_500.png);
+}
+
+#icon-id-4 {
+  background-image: url(midia/can_355.png);
+}
+
+#icon-id-5 {
+  background-image: url(midia/bottle_330.png);
+}
+
+#icon-id-6 {
+  background-image: url(midia/can_250.png);
 }
