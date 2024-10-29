@@ -11,14 +11,17 @@ body {
 }
 
 header {
-  background-image: linear-gradient(white 30%, #fff75e, #ffda3d 60%);
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  background-image: linear-gradient(white 50%, #fff75e, #ffda3d 70%);
+  padding-top: 0.2em;
+  padding-bottom: 1em;
 }
 
 main {
-  background-image: linear-gradient(#ffda3d, #fff75e, #ededed 50%);
+  background-image: linear-gradient(#ffda3d 20%, #fff75e 50%, #ededed);
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 footer {
@@ -37,39 +40,46 @@ footer {
 }
 
 .subtitle {
-  font-size: 0.4rem;
+  font-size: 0.8rem;
 }
 
 .title-app {
   font-family: "Anton", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 0.3rem;
+  padding-top: 0.2em;
 }
 
 .icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1em;
-}
-
-.icon-imgtext {
-  position: relative;
+  gap: 1.2em;
 }
 
 .size-icons {
-  /* background-color: aliceblue; */
-  width: 35vw;
-  height: 35vw;
+  min-width: 30vw;
+  min-height: 30vw;
   border: solid 0.1px;
   border-color: #ff99005a;
   border-radius: 5%;
-  /* background-image: url(midia/bottle_600.png); */
+  background-color: #ffcb0560;
   background-size: contain;
-  opacity: 0.5;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.size-icons-manual {
+  width: 70%;
+  border: solid 0.1px;
+  border-color: #ff99005a;
+  border-radius: 5%;
+  background-color: #ffcb0560;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .size-icons:hover {
@@ -77,22 +87,36 @@ footer {
   border-color: #e8e5e0;
 }
 
-.icon-text {
-  font-size: 2rem;
-  font-weight: 800;
-  /* align-self: flex-start; */
-  padding-top: 0.2em;
-  position: absolute;
-  top: 45px;
-  left: 25px
+.icon-text-1 {
+  font-size: 1.2rem;
+  background-color: #ffcd0578;
 }
+
+.icon-text-2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-top: 0.2em;
+  padding-bottom: 0.2rem;
+  background-color: #ffcd0578;
+  border-radius: 25%;
+}
+
+.icon-text-2-manual {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 0.2em;
+  padding-bottom: 0.2rem;
+
+}
+
 /* .size-icons:active {
   border: solid 4px;
   border-color: #e8e5e0;
 } */
 
 .comands {
-  padding-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
 }
 
 .comands button {
