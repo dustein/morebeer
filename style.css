@@ -54,12 +54,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.2em;
+  gap: 1em;
 }
 
 .size-icons {
-  min-width: 30vw;
-  min-height: 30vw;
+  min-width: 32vw;
+  min-height: 32vw;
   border: solid 0.1px;
   border-color: #ff99005a;
   border-radius: 5%;
@@ -115,16 +115,16 @@ footer {
 } */
 
 .comands {
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  padding-top: 0,5em;
+  padding-bottom: 1em;
 }
 
 .comands button {
   padding: 0.6rem;
-  border-radius: 15%;
+  border-radius: 10%;
   background-color: #ffcb05;
   font-size: 1.2rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.4rem;
 }
 
 .second {
