@@ -68,6 +68,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 .size-icons-manual {
@@ -106,9 +107,11 @@ footer {
   font-weight: 600;
   padding-top: 0.2em;
   padding-bottom: 0.2rem;
-
 }
 
+/* .size-icons img {
+  max-width: max-content;
+} */
 /* .size-icons:active {
   border: solid 4px;
   border-color: #e8e5e0;
@@ -134,24 +137,46 @@ footer {
 /* Imagens dos Icones */
 #icon-id-1 {
   background-image: url(midia/bottle_600.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #icon-id-2 {
   background-image: url(midia/can_473.png);
+  background-repeat: no-repeat;
 }
 
 #icon-id-3 {
   background-image: url(midia/bottle_500.png);
+  background-repeat: no-repeat;
 }
 
 #icon-id-4 {
   background-image: url(midia/can_355.png);
+  background-repeat: no-repeat;
 }
 
-#icon-id-5 {
+/* #icon-id-5 {
   background-image: url(midia/bottle_330.png);
+  background-repeat: no-repeat;
+} */
+
+#back-icon-id-5 {
+  background-image: url(midia/bottle_330.png);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  position: absolute;
 }
 
 #icon-id-6 {
   background-image: url(midia/can_250.png);
+  background-repeat: no-repeat;
+}
+
+/* Configuração Tablet e Notebook */
+@media screen and (min-width: 600px) {
+  .size-icons {
+    min-width: none;
+    min-height: auto;
+  }
 }
